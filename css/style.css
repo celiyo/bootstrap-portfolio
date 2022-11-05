@@ -293,6 +293,7 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
   }
   .profile-img-container {
     justify-content: center;
@@ -301,5 +302,16 @@ img {
   .profile-img-container img {
     width: 250px;
     height: auto;
+  }
+  /* Contact section */
+  .contact form {
+    width: 343px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .navbar-expand-lg > .container {
+    padding-right: 15px;
+    padding-left: 15px;
   }
 }
