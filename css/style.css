@@ -50,6 +50,7 @@ h2:after {
   left: calc(50% - 25px);
 }
 
+h4,
 h5 {
   font-weight: 600;
 }
@@ -158,6 +159,9 @@ section {
 /**
  * WORK SECTION
  * ------------------------------------------------------------------------- */
+.work {
+  background-color: var(--light-gray);
+}
 .work-container:not(:first-of-type) {
   margin-top: 30px;
 }
@@ -193,10 +197,6 @@ section {
 /**
  * SKILLS SECTION
  * ------------------------------------------------------------------------- */
-.skills {
-  background-color: var(--light-gray);
-}
-
 .skills .progress {
   height: 60px;
   display: block;
@@ -220,10 +220,21 @@ section {
 }
 
 .skills .progress-bar-container {
-  background-color: var(--white);
+  background-color: var(--light-gray);
 }
 
 .skills .progress-bar {
   background-color: var(--pink);
   height: 20px;
+}
+
+/**
+ * CONTACT SECTION
+ * ------------------------------------------------------------------------- */
+.contact {
+  background-color: var(--light-gray);
+}
+.contact form {
+  width: 400px;
+  margin: 0 auto;
 }
