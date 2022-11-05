@@ -1,0 +1,53 @@
+/**
+ * GLOBAL CSS
+ * ------------------------------------------------------------------------- */
+/* Variables */
+:root {
+  --white: #ffffff;
+  --pink: #f15e75;
+  --dark-pink: #e35469;
+  --light-gray: #f7f8f9;
+  --gray: #bcbcbc;
+  --dark-gray: #343a40;
+}
+
+/* General */
+body {
+  color: var(--dark-gray);
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Raleway', sans-serif;
+}
+
+a {
+  color: var(--pink);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--dark-pink);
+}
+
+/**
+ * HEADER SECTION
+ * ------------------------------------------------------------------------- */
+.navbar {
+  padding: 15px 0;
+}
+
+.logo img {
+  max-height: 40px;
+}
+
+.nav-link {
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+}
