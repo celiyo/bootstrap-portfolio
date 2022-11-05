@@ -189,3 +189,41 @@ section {
   color: var(--white);
   border-bottom: 5px solid var(--pink);
 }
+
+/**
+ * SKILLS SECTION
+ * ------------------------------------------------------------------------- */
+.skills {
+  background-color: var(--light-gray);
+}
+
+.skills .progress {
+  height: 60px;
+  display: block;
+  background: none;
+  border-radius: 0;
+}
+
+.skills .progress .skill {
+  padding: 10px 0;
+  margin: 0 0 6px 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  /* color: #222222; */
+}
+
+.skills .progress .skill .val {
+  float: right;
+  font-style: normal;
+}
+
+.skills .progress-bar-container {
+  background-color: var(--white);
+}
+
+.skills .progress-bar {
+  background-color: var(--pink);
+  height: 20px;
+}
