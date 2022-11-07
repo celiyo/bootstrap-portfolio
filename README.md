@@ -10,7 +10,7 @@ N/A
 
 ## Usage
 
-![Portfolio Page Screenshot](images/screenshot.png)
+![Portfolio Page Screenshot](images/Screenshot.png)
 [Demo URL](https://celiyo.github.io/bootstrap-portfolio/)
 
 1. Using Bootstrap, recreate your portfolio site with the following items:
